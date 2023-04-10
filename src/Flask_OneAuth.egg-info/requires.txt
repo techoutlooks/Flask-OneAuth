@@ -1,0 +1,10 @@
+environs
+phonenumbers
+psycopg2-binary
+Flask
+Flask-Bcrypt
+Flask-Dance[sqla]
+Flask-Login
+Flask-SQLAlchemy
+PyJWT
+SQLAlchemy-Utils
