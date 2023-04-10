@@ -6,13 +6,17 @@ from flask import Blueprint, request, make_response, jsonify, current_app
 from flask.views import MethodView
 from flask_login import login_required, current_user
 
-from demo import bcrypt, db
 from flask_oneauth.exceptions import exc_msg
 
 
+# Dependencies
+db = current_app.extensions["oneauth"].db
+bcrypt = current_app.extensions["oneauth"].bcrypt
+
+
+# Custom models
 User = current_app.extensions["oneauth"].user_model
 BlacklistToken = current_app.extensions["oneauth"].jwt_model
-
 
 __all__ = (
     "jwt_bp",

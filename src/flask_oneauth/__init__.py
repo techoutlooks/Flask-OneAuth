@@ -77,6 +77,7 @@ class OneAuth:
         self.oauth_model = get_oauth_token_model(db, self.user_model)
 
         self.db = db
+        self.bcrypt = bcrypt
         self.cache = cache
 
         if app:
