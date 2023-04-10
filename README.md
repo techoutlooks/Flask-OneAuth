@@ -4,7 +4,7 @@ Centralised & pluggable user management facility for Flask.
 Flask-OneAuth is a Flask extension that works with Flask-SQLAlchemy to provide 
 a User model, RESTFul authentication and CRUD views for user management 
 
-Cf. the [demo](./demo/__init__.py) app for usage in a project.
+Cf. the [demo](../demo/__init__.py) app for usage in a project.
 
 
 ### Demo example (Facebook)

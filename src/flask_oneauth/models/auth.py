@@ -111,7 +111,7 @@ def get_user_model(db: SQLAlchemy, bcrypt: Bcrypt):
                 return e
 
         @staticmethod
-        def decode_jwt_token(auth_token) -> int | str:
+        def decode_jwt_token(auth_token) -> int or str:
             """
             Decodes the auth token.
             Returns the user_id (claim's subject) as an integer

@@ -1,6 +1,12 @@
-
-venv
-.idea
 .vscode
+.idea/
+venv/
+.pytest_cache/
+.coverage
+*.py[cod]
+*.egg-info/
+*.egg
+.DS_Store
+
+.empty
 .env
-*.pyc
